@@ -24,10 +24,7 @@ setup(
     author_email='me@jakubracek.net',
     url='https://github.com/jacobjakub/pyfka',
     license='Apache Software License (v2)',
-    install_requires=[
-        'kafka-python >=1.1.1',
-    ],
-    setup_requires=[],
+    install_requires=['kafka-python >=1.1.1'],
     test_suite='pyfka.collector',
     zip_safe=False,
     packages=find_packages(),
