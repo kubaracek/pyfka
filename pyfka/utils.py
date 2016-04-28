@@ -1,3 +1,5 @@
+import json
+
 def json_encode(msg):
     return str.encode(json.dumps(msg))
 
